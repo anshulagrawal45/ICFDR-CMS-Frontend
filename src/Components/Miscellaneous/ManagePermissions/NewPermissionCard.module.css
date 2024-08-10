@@ -1,0 +1,82 @@
+.card {
+    position: relative;
+    width: 200px;
+    height: 254px;
+    background: grey;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+   }
+   
+   .card .card-border-top {
+    position: absolute;
+    width: 60%;
+    height: 3%;
+    left: 20%;
+    background: yellow;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+   }
+   .card .card-border-top div{
+    opacity: 0;
+    font-weight: 700;
+   }
+   .card:hover .card-border-top div{
+    opacity: 1;
+    transition: all 0.5s;
+   }
+   .card:hover .card-border-top{
+    height: 10%;
+    transition: all 0.5s;
+   }
+   
+   .card span {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 12px;
+   }
+   
+   .card .img {
+    width: 70px;
+    height: 80px;
+    background: #6b64f3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+   }
+   .card .img img{
+    width: 100%;
+    height: 100%;
+   }
+   
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+   }
+   
+   .card button:hover {
+    background: #534bf3;
+   }

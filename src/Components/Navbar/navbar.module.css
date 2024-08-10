@@ -1,0 +1,21 @@
+
+.nav{
+    transition: all .4s ;
+    padding: 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav:hover{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titles{
+    /* display: none; */
+    visibility: hidden;
+    
+}
+.nav:hover .titles{
+    /* display: initial; */
+    transition:  all 0.4s ;
+    visibility: visible;
+}

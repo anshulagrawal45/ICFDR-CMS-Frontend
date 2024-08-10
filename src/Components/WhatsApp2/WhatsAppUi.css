@@ -1,0 +1,210 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ece5dd;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #075e54;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #efeae2;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.message.right {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.message.left {
+    background-color: #ffffff;
+    align-self: flex-start;
+}
+
+.message-sender {
+    font-weight: bold;
+}
+
+.message-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message-time {
+    align-self: flex-end;
+    font-size: 0.8em;
+    color: gray;
+} */
+
+/* ChatWindow.css */
+/* .chat-window h2 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-window ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} */
+
+/* MessageComposer.css */
+/* .message-composer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.message-composer button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.message-composer input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #075e54;
+    color: white;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #128c7e;
+} */
+
+/* Sidebar.css */
+/* .sidebar h2 {
+    padding: 20px;
+    margin: 0;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #f0f0f0;
+} */
+
+.whatsapp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* Adjust as needed */
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+.whatsapp-container p {
+    font-size: 1.5rem;
+}
+
+.whatsapp-iframe {
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .whatsapp-container p {
+        font-size: 1.2rem;
+    }
+
+    .whatsapp-iframe {
+        width: 95%;
+        height: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .whatsapp-container p {
+        font-size: 1.4rem;
+    }
+
+    .whatsapp-iframe {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .whatsapp-container p {
+        font-size: 1.5rem;
+    }
+
+    .whatsapp-iframe {
+        width: 60%;
+        height: 80%;
+    }
+}
